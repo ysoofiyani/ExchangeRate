@@ -54,14 +54,30 @@
 		3B2E3C1620BCC6BE00047817 /* ExchangeRate */ = {
 			isa = PBXGroup;
 			children = (
-				3B2E3C1720BCC6BE00047817 /* AppDelegate.swift */,
-				3B2E3C1920BCC6BE00047817 /* ViewController.swift */,
-				3B2E3C1B20BCC6BE00047817 /* Main.storyboard */,
-				3B2E3C1E20BCC6BF00047817 /* Assets.xcassets */,
+				3B2E3C2A20BCC6D600047817 /* View */,
+				3B2E3C2920BCC6C900047817 /* Controller */,
 				3B2E3C2020BCC6BF00047817 /* LaunchScreen.storyboard */,
 				3B2E3C2320BCC6C000047817 /* Info.plist */,
 			);
 			path = ExchangeRate;
+			sourceTree = "<group>";
+		};
+		3B2E3C2920BCC6C900047817 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E3C1720BCC6BE00047817 /* AppDelegate.swift */,
+				3B2E3C1920BCC6BE00047817 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B2E3C2A20BCC6D600047817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B2E3C1E20BCC6BF00047817 /* Assets.xcassets */,
+				3B2E3C1B20BCC6BE00047817 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
